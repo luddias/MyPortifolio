@@ -324,3 +324,24 @@ main{
     position: relative;
     border: 5px solid purple;
 }
+
+h2 {
+  font-size: 72px;
+  font-family: 'Birthstone Bounce', cursive;
+  text-align: center;
+  background: linear-gradient(to right, #000000 20%, rgb(125, 33, 230) 40%, rgb(142, 64, 214) 60%, #4e1d64 80%, black 100%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
