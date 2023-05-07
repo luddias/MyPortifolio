@@ -10,10 +10,11 @@ body{
 header{
   height: 5%;
   width: 100vw;
-  background-color: transparent;
+  background-color: rgba(254, 243, 255, 0.74);
   border-bottom: 1px solid rgb(0, 0, 0);
   position: fixed;
   z-index: 1;
+  backdrop-filter: blur(3px);
 
 
   
@@ -319,16 +320,25 @@ main{
   /* TELA SOBRE MIM */
 
   .sobremim_div{
-
+    width: 100vw;
     display: flex;
+    flex-direction: column;
     position: relative;
+    align-items: center;
     border: 5px solid purple;
+    background-image: url(https://github.com/luddias/Portifolio/blob/main/assets/img/background1.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
 }
 
 h2 {
+  width: 70%;
+  border: #2b641d solid 5px;
+  text-align: left;
   font-size: 72px;
   font-family: 'Birthstone Bounce', cursive;
-  text-align: center;
   background: linear-gradient(to right, #000000 20%, rgb(125, 33, 230) 40%, rgb(142, 64, 214) 60%, #4e1d64 80%, black 100%);
   background-size: 200% auto;
   color: #000;
@@ -345,3 +355,23 @@ h2 {
     background-position: 200% center;
   }
 }
+
+
+.conteudo{
+  width: 70%;
+  position: relative;
+  column-count: 2;
+  column-gap: 3rem;
+  border: 5px solid orange;
+}
+
+.perfil{
+  width: 200px;
+
+}
+
+.apresentacao{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border: yellow solid 6px;}
