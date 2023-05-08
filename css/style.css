@@ -3,6 +3,9 @@ body{
     width: 100vw;
     height: 100vh;
     scroll-behavior: smooth;
+    background-image: url(https://github.com/luddias/Portifolio/blob/main/assets/img/Picsart_23-05-08_11-47-46-205.jpg?raw=true);
+    background-repeat: no-repeat;
+
 }
 
 
@@ -117,9 +120,7 @@ main{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url(https://github.com/luddias/Portifolio/blob/main/assets/img/background1.png?raw=true);
-    background-repeat: no-repeat;
-    background-size: cover;
+
     gap: 150px;
    
 }
@@ -326,9 +327,7 @@ main{
     position: relative;
     align-items: center;
     border: 5px solid purple;
-    background-image: url(https://github.com/luddias/Portifolio/blob/main/assets/img/background1.png?raw=true);
-    background-repeat: no-repeat;
-    background-size: cover;
+
     
 
 }
@@ -363,6 +362,7 @@ h2 {
   column-count: 2;
   column-gap: 3rem;
   border: 5px solid orange;
+  
 }
 
 .perfil{
@@ -375,3 +375,20 @@ h2 {
   display: flex;
   flex-direction: row;
   border: yellow solid 6px;}
+
+
+.particoes{
+  font-family: 'Italiana', serif;;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+.topicos{
+  font-weight: bold;
+  font-size: 20px; 
+}
+
+.form_acade{
+  
+}
