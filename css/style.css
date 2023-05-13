@@ -326,7 +326,7 @@ main{
     flex-direction: column;
     position: relative;
     align-items: center;
-    border: 5px solid purple;
+
 
     
 
@@ -334,7 +334,7 @@ main{
 
 h2 {
   width: 70%;
-  border: #2b641d solid 5px;
+
   text-align: left;
   font-size: 72px;
   font-family: 'Birthstone Bounce', cursive;
@@ -357,38 +357,140 @@ h2 {
 
 
 .conteudo{
+  padding-top: 30px;
+  display: flex;
   width: 70%;
   position: relative;
   column-count: 2;
   column-gap: 3rem;
-  border: 5px solid orange;
+
   
 }
 
 .perfil{
-  width: 200px;
+  width: 15%;
 
 }
 
 .apresentacao{
+  width: 70%;
   position: relative;
   display: flex;
   flex-direction: row;
-  border: yellow solid 6px;}
+  align-items: center;
+  padding-top: 20px;
+  gap: 20px;
+}
 
+.minha_desc{
+  width: 65%;
+  border:black solid 1px;
+  border-radius: 30px;
+  padding: 20px;
+}
 
-.particoes{
+.dados{
+  line-height: 1.25rem;
+  width: 20%;
+
+}
+
+.cat_titulo{
   font-family: 'Italiana', serif;;
   font-size: 30px;
   font-weight: bold;
+  padding-top: 20px;
   
 }
 
 .topicos{
   font-weight: bold;
   font-size: 20px; 
+  padding-top: 10px;
 }
 
-.form_acade{
-  
+.desc_comp{
+  font-size: 15px; 
+
 }
+
+.categoria{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sessao{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sessao_dois, .sessao_um{
+  width: 37.5%;
+}
+
+.sessao_tres{
+  width: 25%;
+}
+
+.interesses img{
+  width: 80px;
+}
+
+b{
+  font-weight: bold;
+}
+
+.competencias img{
+  width: 40px;
+}
+
+.lista li{
+    list-style: none;
+    display: inline-flex;
+    word-break: break-word;
+    padding-top: 15px;
+
+    
+}
+
+.competencias li, .interesses li{
+  flex-direction: column;
+  word-break: break-word;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.competencias li{
+    width: 80px;
+}
+
+.interesses li{
+    width: 100px;
+    
+}
+
+.interesses{
+    column-width: 5.1em;
+}
+
+.contatos li{
+    gap: 5px;
+}
+
+.linguas li{
+    flex-direction: column;
+    gap: 5px;
+}
+
+.linguas{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
